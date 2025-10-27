@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16sp"
+    android:paddingTop="16sp"
+    android:paddingLeft="16sp"
+    android:background="#10173E"
+    tools:context=".ResultActivity2">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@drawable/boy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvres"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:text="Large Text "
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:textAlignment="center"
+        android:background="#76FF03"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000"
+        android:textSize="19dp"
+        />
+
+    <TextView
+        android:id="@+id/tvres2"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_below="@id/tvres"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:text="Large Text "
+        android:textStyle="bold"
+        android:layout_marginTop="31dp"
+        android:textAlignment="center"
+        android:background="#E1EF1010"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000"
+        android:textSize="19dp"
+        />
+
+    <TextView
+        android:id="@+id/tvres3"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_below="@id/tvres2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:text="Large Text "
+        android:textStyle="bold"
+        android:layout_marginTop="31dp"
+        android:textAlignment="center"
+        android:background="#FFEB3B"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000"
+        android:textSize="19dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relativeLay"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvres3"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="#FFF"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="RESTART"
+        android:layout_marginBottom="100dp"
+        android:background="#2196F3"
+        android:textSize="25dp"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/btnFinalScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="ScoreCard"
+        android:onClick="scoreScreen"
+        android:layout_marginBottom="10dp"
+        android:background="#2196F3"
+        android:textSize="25dp"
+        android:textColor="#FFF"/>
+
+
+
+</RelativeLayout>

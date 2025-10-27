@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="true">QuizApp</string>
+    <string name="open" translatable="true">Open</string>
+    <string name="close" translatable="true">Close</string>
+    <string name="shubhamgangurde58_gmail_com" translatable="true">shubhamgangurde58@gmail.com</string>
+    <string name="facebook_page" translatable="true">Follow on Facebook</string>
+    <string name="communication" translatable="true">Communication</string>
+    <string name="nav_rate" translatable="true">Rate or Feedback</string>
+    <string name="nav_share" translatable="true">Share</string>
+    <string name="nav_privacy_policy" translatable="true">Privacy Policy</string>
+    <string name="nav_terms_conditions" translatable="true">Terms and Conditions</string>
+    <string name="website" translatable="true">Visit Website</string>
+    <string name="more" translatable="true">More</string>
+</resources>
